@@ -1,7 +1,12 @@
 library(SummarizedExperiment)
 library(dplyr)
 library(stringr)
-
+library(GENESIS)
+library(SeqArray)
+library(data.table)
+library(dplyr)
+library(tibble)
+library(bacon)
 whatdatallPATH = '/Users/test/projects/diffutr/data/whatdatall.csv'
 pcPATH = '/Users/test/projects/diffutr/outputs/pcs_exonExpression.csv'
 vstPATH = '/Users/test/projects/diffutr/outputs/vst_normalized.csv'

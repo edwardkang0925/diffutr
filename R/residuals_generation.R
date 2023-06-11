@@ -9,6 +9,8 @@ library(fastDummies)
 library(hexbin)
 library(ggplot2)
 library(reshape2)
+library(lme4)
+library(bacon)
 
 # misc_file_path <- args[1]
 # print(misc_file_path)
